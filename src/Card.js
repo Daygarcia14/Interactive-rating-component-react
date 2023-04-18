@@ -10,7 +10,9 @@ function Card() {
     }
 
     function showSelection(valor) {
-        setSubmit(valor);
+        if(number!==""){
+            setSubmit(valor);
+        }
     }
 
     return <>
